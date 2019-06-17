@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <div className="profile">
         <div className="bio">
-          <h1>Ralphie Celedon</h1>
-          <h3>I'm a full stack developer with a passion <br/> for frontend development. I'm always looking to challenge <br/> myself to help me grow as a developer. </h3>
+          <h1 className="name">Ralphie Celedon</h1>
+          <h3 className="bio">I'm a full stack developer with a passion <br/> for frontend development. I'm always looking to challenge <br/> myself to help me grow as a developer. </h3>
         </div>
         <img src="/img/ralphie.jpg" alt="" className="image"></img>
       </div>

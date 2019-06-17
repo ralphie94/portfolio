@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Projects extends Component {
     render(){
         return(
+            <section id="projects">
             <div>
                 <h1 className="projects-header">Projects</h1>
                 <div className="projects">
@@ -54,6 +55,7 @@ class Projects extends Component {
                     </div>
                 </div>
             </div>
+            </section>
         )
     }
 }

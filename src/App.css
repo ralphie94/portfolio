@@ -42,6 +42,7 @@
   align-items: center;
   height: 25rem;
   margin-bottom: 5rem;
+  font-family: "Raleway";
 }
 
 .project-pic {
@@ -73,6 +74,16 @@
 .projects-header {
   text-align: center;
   height: 10rem;
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+
+.skill-header {
+  font-size: 3rem;
+}
+
+.skill-list {
+  font-size: 31px;
 }
 
 .btn {
@@ -95,10 +106,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Raleway";
 }
 
 .fab {
   font-size: 3rem;
   padding: 5px;
   color: black;
+}
+
+.fas {
+  font-size: 3rem;
+  padding: 5px;
+  color: black;
+}
+
+.name {
+  font-size: 5rem;
+  font-family: "Raleway";
+}
+
+.bio {
+  font-size: 2rem;
+  font-family: "Raleway";
+}
+
+.nav-name {
+  font-family: "Raleway";
+}
+
+.project-info {
+  font-family: "Raleway";
+}
+
+html {
+  scroll-behavior: smooth;
 }

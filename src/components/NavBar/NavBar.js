@@ -1,19 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import * as routes from "../../constants/routes";
 
 class NavBar extends Component {
     render(){
         return(
             <div className="nav">
                 <div className="nav-header">
-                    <h1>Ralphie Celedon | Full Stack Developer</h1>
+                    <h1 className="nav-name">Ralphie Celedon | Full Stack Developer</h1>
                 </div>
                 <div className="nav-links">
-                    <Link className="link">About</Link>
-                    <Link to={routes.SKILLS} className="link">Skills</Link>
-                    <Link className="link">Projects</Link>
-                    <Link className="link">Contact</Link>
+                    <a href="#about" className="link">About</a>
+                    <a href="#skills" className="link">Skills</a>
+                    <a href="#projects" className="link">Projects</a>
+                    <a href="#contact" className="link">Contact</a>
                 </div>
             </div>
         )
